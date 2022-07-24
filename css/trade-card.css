@@ -1,0 +1,11 @@
+.project-card {
+  margin: 5vh 0;
+  padding: 2vmax 2vmin;
+  border: 2px solid rgb(108, 118, 160);
+  border-radius: 8px;
+}
+.project-card__title {
+  /* padding: 1vmax 1vmin; */
+  margin: 3% 0 2% 13%;
+  font-size: 2.4rem;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  box-sizing: border-box;
+  display: none;/* flex; */
+  min-width: 80vw;
+  max-width: 80vw;
+  padding: 0;
+  margin: 4% auto;
+  border-radius: 16px;
+  box-shadow: 0 0 24px #027BCE;
+}
+.content {
+  margin: 0;
+  padding: 2%;
+}
