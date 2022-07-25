@@ -1,36 +1,17 @@
-/* header {
-  min-width: 100vw;
-  min-height: 9vh;
-  max-height: 9vh;
-}
-header .header__scoupe {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 9vh;
-  padding: 0 8vh 0 6vh;
+  font-weight: 600;
+  color: black;
 }
-header .slug__scope {
+
+.phone {
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
-header .slug__scope .round-mark__wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-width: 7vh;
-  min-height: 7vh;
+
+.phone .phone-icon a i img {
+  margin: -5px 2px;
 }
-header .slug__scope .round-mark {
-  width: 5vh;
-  height: 5vh;
-  background: #15293E;
-  border-radius: 5vh;
-}
-header .slug__scope .slug {
-  font-family: Gilroy;
-  font-size: 1.2vw;
-  font-weight: 400;
-}
- */
+
