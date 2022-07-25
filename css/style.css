@@ -13,6 +13,7 @@ menu {
   justify-content: space-around;
   flex: 1;
   max-width: 662px;
+  padding: 0;
 }
 menu a,
 .phone-Nr a {

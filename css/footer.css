@@ -6,10 +6,13 @@ footer {
   color: black;
 }
 
-/* .phone {
-  display: flex;
-  align-items: center;
-} */
+.footer-logo,
+.footer-logo a i img {
+  width: 280px;
+  height: 85px;
+}
+
+
 
 .phone .phone-icon a i img {
   margin: -5px 2px;
