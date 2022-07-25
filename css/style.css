@@ -23,6 +23,7 @@ menu a,
 
 main {
   display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
 }
 .main-title {
@@ -31,3 +32,40 @@ main {
   font-weight: 700;
   font-size: 96px;
 }
+
+.background {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: -270px 0 0 -200px;
+}
+.orange-angle img {
+  min-width: 50%;
+}
+.dimmed-car {
+  margin: -0 -200px 0 0;
+}
+.foreground {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -700px;
+}
+.wite-mersedes {
+  text-align: center;
+}
+.order-form,
+.order-form__scope {
+  display: flex;
+  flex-direction: column;
+  max-width: 390px;
+}
+.order-form__title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #F07F0E;
+}
+
+Weight700
+Size36px

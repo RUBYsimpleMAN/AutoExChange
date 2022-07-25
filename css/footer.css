@@ -6,6 +6,10 @@ footer {
   color: black;
 }
 
+.footer-combine {
+  padding-top: 20%;
+}
+
 .footer-logo,
 .footer-logo a i img {
   width: 280px;
@@ -16,17 +20,12 @@ footer {
   margin-left: -100px;
   text-align: center;
 }
-
-/* .footer__center-block div:last-child  */
-
 .footer__contact-icons {
   display: flex;
   justify-content: space-around;
   max-width: 600px;
   margin: 4% auto;
 }
-
-
 .phone .phone-icon a i img {
   margin: -5px 2px;
 }
