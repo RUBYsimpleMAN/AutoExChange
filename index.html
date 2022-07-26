@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/trade-card.css">
     
   </head>
@@ -86,19 +87,27 @@
               <div class="order-form__title">
                 Заявка на обмен автомобиля
               </div><!-- div class="order-form__title" -->
-              <div class="order-form__scope">
-                <form action="" class="order-form">
-                  <input  type="text"
-                          name="order-form-input-name"
-                          id="order-form-input-name"
-                          class="order-form-input-name">
-                  <input  type="tel"
-                          name="order-form-input-phone"
-                          id="order-form-input-phone"
-                          class="order-form-input-phone">
-                  <input  type="submit" value="" class="order-form-input-submit-btn">
+              <form action="" class="order-form">
+                  <div class="order-form__shell">
+                  <div>
+                    <input  type="text"
+                    name="order-form-input-name"
+                    placeholder="Имя:"
+                    id="order-form-input-name"
+                    class="order-form-input-name">
+                  </div>
+                  <div>
+                    <input  type="tel"
+                    name="order-form-input-phone"
+                    placeholder="Телефон:"
+                    id="order-form-input-phone"
+                    class="order-form-input-phone">
+                  </div>
+                  <div style="padding-top: 60px;">
+                    <input  type="submit" value="обменять авто" class="order-form-input-submit-btn">
+                  </div>
+                </div><!-- div class="order-form__shell" -->
                 </form>
-              </div><!-- div class="order-form" -->
             </div><!-- div class="order-form__scope" -->
           </div><!-- div class="foreground" -->
         </div><!-- div class="first-block" -->

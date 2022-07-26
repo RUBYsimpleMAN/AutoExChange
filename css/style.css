@@ -44,6 +44,7 @@ main {
 }
 .dimmed-car {
   margin: -0 -200px 0 0;
+  overflow-x: hidden;
 }
 .foreground {
   display: flex;
@@ -54,18 +55,3 @@ main {
 .wite-mersedes {
   text-align: center;
 }
-.order-form,
-.order-form__scope {
-  display: flex;
-  flex-direction: column;
-  max-width: 390px;
-}
-.order-form__title {
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  color: #F07F0E;
-}
-
-Weight700
-Size36px
