@@ -1,0 +1,27 @@
+.background-block01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: -270px 0 0 -200px;
+}
+.orange-angle img {
+  min-width: 50%;
+}
+.dimmed-car {
+  margin: -0 -200px 0 0;
+  overflow-x: hidden;
+}
+.foreground-block01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -700px;
+}
+.wite-mersedes {
+  text-align: center;
+}
+.scroll-down-states-full {
+  display: flex;
+  justify-content: end;
+  padding-top: 90px;
+}

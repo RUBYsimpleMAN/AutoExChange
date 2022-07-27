@@ -32,26 +32,18 @@ main {
   font-weight: 700;
   font-size: 96px;
 }
-
-.background {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: -270px 0 0 -200px;
+.font-orange {
+  color: #F07F0E;
 }
-.orange-angle img {
-  min-width: 50%;
+.font-400 {
+  font-weight: 400;
 }
-.dimmed-car {
-  margin: -0 -200px 0 0;
-  overflow-x: hidden;
+.font-500 {
+  font-weight: 500;
 }
-.foreground {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: -700px;
+.font-600 {
+  font-weight: 600;
 }
-.wite-mersedes {
-  text-align: center;
+.font-700 {
+  font-weight: 700;
 }
