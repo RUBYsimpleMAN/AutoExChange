@@ -1,11 +1,23 @@
-.project-card {
-  margin: 5vh 0;
-  padding: 2vmax 2vmin;
-  border: 2px solid rgb(108, 118, 160);
+.trade-card {
+  box-sizing: border-box;
+  flex-basis: 24vw;
+  margin: 2%;
+  padding: 2%;
+  border: 4px solid red;
   border-radius: 8px;
 }
-.project-card__title {
-  /* padding: 1vmax 1vmin; */
-  margin: 3% 0 2% 13%;
-  font-size: 2.4rem;
+.trade-card__title {
+  padding: 1%;
+  text-align: center;
+  font-size: 26px;
+}
+.trade-card__heart {
+  text-align: end;
+}
+
+.trade-card__image,
+.trade-card__price,
+.trade-card__options {
+  padding: 1%;
+  text-align: center;
 }
