@@ -33,7 +33,7 @@ main {
   font-size: 96px;
 }
 .font-orange {
-  color: #F07F0E;
+  color: rgba(240, 127, 14, 1);
 }
 .font-400 {
   font-weight: 400;

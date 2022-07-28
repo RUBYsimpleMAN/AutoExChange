@@ -1,11 +1,19 @@
 .trade-card {
   box-sizing: border-box;
   flex-basis: 24vw;
-  margin: 2%;
-  padding: 2%;
-  border: 4px solid red;
+  margin: 1%;
   border-radius: 8px;
 }
+.trade-card__sale-data-attribute {
+  box-sizing: border-box;
+  flex-basis: 24vw;
+  margin: 1%;
+  border-radius: 8px;
+  background-color: #FFE1E1;
+}
+
+
+
 .trade-card__title {
   padding: 1%;
   text-align: center;
@@ -13,11 +21,29 @@
 }
 .trade-card__heart {
   text-align: end;
+  margin: -290px 20px 250px 0;
 }
 
-.trade-card__image,
-.trade-card__price,
+.trade-card__price {
+  /* margin: 0 0 20px 0; */
+  padding: 10px 15px;
+  background-color: rgba(240, 127, 14, 1);
+  border-radius: 40px;
+  font-size: 32px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 14px 0 rgba(0, 0, 0, 0.12);
+}
+
 .trade-card__options {
-  padding: 1%;
+  padding: 3%;
   text-align: center;
 }
+.trade-card__image {
+  width: 100%;
+  margin: -2%;
+  padding: 1%;
+  text-align: center;
+  background-color: white;
+}
+
