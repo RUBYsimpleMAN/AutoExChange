@@ -21,7 +21,8 @@
   text-align: center;
 }
 .scroll-down-states-full {
-  display: flex;
-  justify-content: end;
+  /* display: flex;          не работало в браузере Vivaldi
+  justify-content: end;      и через текстовые настроки не работало */   
   padding-top: 90px;
+  direction: rtl;            /* а так работает во всех */
 }

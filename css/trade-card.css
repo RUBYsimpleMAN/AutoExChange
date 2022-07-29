@@ -12,8 +12,6 @@
   background-color: #FFE1E1;
 }
 
-
-
 .trade-card__title {
   padding: 1%;
   text-align: center;
@@ -25,7 +23,6 @@
 }
 
 .trade-card__price {
-  /* margin: 0 0 20px 0; */
   padding: 10px 15px;
   background-color: rgba(240, 127, 14, 1);
   border-radius: 40px;
@@ -40,10 +37,22 @@
   text-align: center;
 }
 .trade-card__image {
-  width: 100%;
+  /* box-sizing: border-box; */
   margin: -2%;
   padding: 1%;
   text-align: center;
   background-color: white;
 }
+/* .trade-card__image-car {  width: 96%; } */
 
+.sale-overley__and-icon {
+  /* box-sizing: border-box; */
+  height: 480px;
+  margin: -450px 0 -32px 0;
+  background-color: #FFE1E1;
+  border-radius: 30px;
+}
+.sale-overley__and-icon {
+  display: block;
+  padding: 10px 0 0 14px;
+}
