@@ -17,8 +17,11 @@
   font-weight: 700;
   color: #F07F0E;
 }
-.order-form__shell input[type=text],
-.order-form__shell input[type=tel] {
+input[type=text],
+input[type=tel] 
+/* .order-form-input-name,
+.order-form-input-phone */
+{
   box-sizing: border-box;
   width: 100%;
   padding: 20px 0 4px 0;
@@ -28,7 +31,7 @@
   font-weight: 400;
   border-bottom: 3px solid #F07F0E;
 }
-.order-form__shell input[type=submit] {
+input[type=submit] {
   box-sizing: border-box;
   width: 100%;
   height: 76px;
