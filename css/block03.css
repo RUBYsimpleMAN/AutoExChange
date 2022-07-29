@@ -15,6 +15,37 @@
   display: flex;
   justify-content: space-between;
 }
+.control-string__auto-category_select {
+  position: relative;
+  width: 320px;
+  height: 50px;
+  padding: 0 0 0 32px;
+  font-size: 20px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  appearance: none;
+  background-color: rgba(240, 127, 14, 1);
+  cursor: pointer;
+}
+select::-ms-expand {display: none;} /* ie only */
+.auto-category-icon {
+  position: absolute;
+  display: block;
+  min-width: 30px;
+  margin: -42px 265px;
+  content: "";
+  pointer-events: none;
+}
+
+.control-string__auto-category_select option {
+  padding: 24px;
+  background:  rgba(240, 127, 14, 1);
+  border-bottom: 2px solid wheat;
+}
+
 .trade-card__scoupe {
   display: flex;
   flex-wrap: wrap;

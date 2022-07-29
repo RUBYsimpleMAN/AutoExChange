@@ -210,7 +210,18 @@
           </div>
           <div class="control-string">
             <div class="control-string__auto-category">
-              <select name="auto-category" id="auto-category-select"></select>
+              <select name="auto-category"
+                      id="auto-category-select"
+                      class="control-string__auto-category_select font-600">
+                <option selected>Все авто</option>
+                <option>Cabrio</option>
+                <option>Sedan</option>
+                <option>Hatchback</option>
+              </select>
+              <div class="auto-category-icon">
+                <img  src="./images/icons/SelectWhiteArrowDown.svg"
+                      alt="./images/icons/SelectWhiteArrowDown.svg">
+              </div>
             </div>
             <div class="control-string__search">
               <input type="text">
