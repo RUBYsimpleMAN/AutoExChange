@@ -1,0 +1,25 @@
+.block04 {
+  padding: 50px 0;
+}
+.block04-title {
+  margin: 80px auto;
+  text-align: center;
+  font-size: 36px;
+}
+
+.block04-content {
+  display: flex;
+}
+.text-block_04 {
+  display: flex;
+}
+.text-descr-scoupe_04 {
+  font-size: 26px;
+  margin: -8px 0 36px 36px;
+}
+.text-descr_04 {
+  padding: 12px 000;
+}
+.image-side_04 {
+  margin: -90px -175px 0 -100px;
+}
