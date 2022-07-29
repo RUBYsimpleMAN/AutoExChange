@@ -1,13 +1,13 @@
 .block03 {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .block03-title {
-  margin: 120px auto;
+  margin: 80px auto;
   text-align: center;
   font-size: 36px;
 }
 .view-more-cars {
-  margin: 20px auto;
+  margin: 0 auto;
   text-align: center;
   font-size: 26px;
 }
@@ -40,10 +40,32 @@ select::-ms-expand {display: none;} /* ie only */
   pointer-events: none;
 }
 
-.control-string__auto-category_select option {
-  padding: 24px;
-  background:  rgba(240, 127, 14, 1);
-  border-bottom: 2px solid wheat;
+.control-string__search {
+  margin: 0 50px 0 -10px;
+}
+.control-string__search input {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 500px;
+  padding: 9px 20px;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  border: 3px solid #F07F0E;
+  border-radius: 40px;
+}
+
+.control-string__prefered i img {
+  width: 100%;
+  min-width: 42px;
+}
+
+.control-string__view-mode-toggle_list {
+  display: inherit;
+}
+.control-string__view-mode-toggle_table {
+  display: none;
 }
 
 .trade-card__scoupe {
