@@ -1,0 +1,24 @@
+.block06 {
+  padding: 50px 0;
+}
+.block06-title {
+  margin: 80px auto;
+  text-align: center;
+  font-size: 36px;
+}
+.block06-content,
+.text-block_06 {
+  display: flex;
+}
+.text-descr_06 {
+  font-size: 26px;
+  margin: 12px 0 32px 20px;
+}
+.image-side_06 {
+  margin: -220px -200px 0 -200px;
+}
+.text-block_06,
+.text-block-icon_06,
+.text-block-icon_06 i {
+  background: transparent;
+}
