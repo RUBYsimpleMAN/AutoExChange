@@ -1,0 +1,56 @@
+.block08 {
+  padding: 50px 0;
+}
+.block08-title {
+  margin: 80px auto;
+  text-align: center;
+  font-size: 36px;
+}
+.block08-content__background {
+  display: flex;
+}
+.block08-content__background-left {
+  margin: 0 0 0 -174px;
+}
+.block08-content__background-right {
+  margin: 0 0 0 581px;
+}
+.block08-content__foreground {
+  margin: -620px 0 0 0;
+}
+.block08-content__foreground-select {
+  padding: 12px 0;
+}
+.faq-select {
+  position: relative;
+  width: 1240px;
+  height: 77px;
+  padding: 0 0 0 96px;
+  font-size: 26px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  appearance: none;
+  background-color: rgba(240, 127, 14, 1);
+  cursor: pointer;
+}
+select::-ms-expand {display: none;} /* ie only */
+.block08-content__foreground-select-icon {
+  position: absolute;
+  display: block;
+  min-width: 30px;
+  margin: -53px 1111px;
+  content: "";
+  pointer-events: none;
+}
+.block08__bottom-link {
+  text-align: center;
+  font-size: 26px;
+  color: rgba(240, 127, 14, 1);
+}
+.block08__bottom-link a:visited{
+  color: rgba(240, 127, 14, 1);
+}
+
