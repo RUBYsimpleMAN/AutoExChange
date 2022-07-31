@@ -1,0 +1,31 @@
+.block09 {
+  padding: 50px 0;
+  border: 3px dotted red;
+}
+.block09-title {
+  margin: 80px auto;
+  text-align: center;
+  font-size: 36px;
+}
+.block09-content__background {
+  padding: 0;
+}
+.block09-content__foreground {
+  margin: -620px 0 0 0;
+  border: 3px dotted navy;
+}
+.block09__foreground-Vladymyr {
+  height: 100px;
+  margin: 30px 0;
+  background-color: burlywood;
+}
+.block09__foreground-Gennady {
+  height: 100px;
+  margin: 30px 0;
+  background-color: burlywood;
+}
+.block09__foreground-Nikita {
+  height: 100px;
+  margin: 30px 0;
+  background-color: burlywood;
+}
