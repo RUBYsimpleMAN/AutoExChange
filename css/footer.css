@@ -5,17 +5,11 @@ footer {
   font-weight: 600;
   color: black;
 }
-
-.footer-combine {
-  padding-top: 20%;
-}
-
 .footer-logo,
 .footer-logo a i img {
   width: 280px;
   height: 85px;
 }
-
 .footer__center-block {
   margin-left: -100px;
   text-align: center;

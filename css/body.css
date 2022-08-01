@@ -9,4 +9,34 @@ html, body {
   line-height: 40px;
   word-wrap: break-word;
   color: black;
+  overflow-x: clip;
 }
+html {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(240, 127, 14, 1) white;
+}
+
+html::-webkit-scrollbar {
+  width: 0px;
+}
+html::-webkit-scrollbar-track {
+  width: 0px;
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+  width: 0px;
+}
+body::-webkit-scrollbar-track {
+  width: 0px;
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+

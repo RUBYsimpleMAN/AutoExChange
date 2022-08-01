@@ -15,8 +15,9 @@
   font-size: 26px;
 }
 .document-card {
-  flex-basis: 14vw;
+  flex-basis: 17vw;
   min-width: 200px;
-  padding: 20px;
+  margin: 0 10px;
+  padding: 40px 0;
   text-align: center;
 }
