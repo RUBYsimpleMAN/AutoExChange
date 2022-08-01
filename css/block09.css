@@ -12,26 +12,34 @@
   z-index: -1;
 }
 .block09-content__foreground {
-  margin: -620px 0 0 0;
+  margin: -936px 0 0 0;
   border: 3px dotted navy;
 }
 
 .block09__foreground-comment-ava,
 .block09__foreground-ava-comment {
   display: flex;
-  height: 100px;
+  height: auto;
   margin: 30px 0;
-  background-color: burlywood;
 }
 /* .block09__foreground-person-ava {} */
-/* .block09__foreground-person-comment {} */
+.block09__foreground-person-comment {
+  background-color: burlywood;
+}
 .name-date {
   display: flex;
   justify-content: space-between;
   width: 1024px;
   border: 3px dotted violet;
 }
-/* .block09__person-comment-content {} */
+.block09__person-comment-content__left {
+  margin: 0 50px 0 0;
+  padding: 20px;
+}
+.block09__person-comment-content__right {
+  margin: 0 0 0 50px;
+  padding: 20px;
+}
 
 .block09-foreground__more-replies {
   padding: 50px 0;

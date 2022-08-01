@@ -22,6 +22,7 @@ html::-webkit-scrollbar {
 html::-webkit-scrollbar-track {
   width: 0px;
   background: transparent;
+  opacity: 0.5;
 }
 
 html::-webkit-scrollbar-thumb {
@@ -34,6 +35,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   width: 0px;
   background: transparent;
+  opacity: 0.5;
 }
 
 body::-webkit-scrollbar-thumb {
