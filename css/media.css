@@ -12,5 +12,34 @@
 /* Extra Small Devices, Phones */
 /* @media only screen and (max-width: 480px) {} */
 
+@media only screen and (max-width: 375px) {
+  html, body {
+    overflow-x: auto;
+  }
+  .wrapper {
+    width: 343px;
+  }
+  .main-title {
+    margin: 20px auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .foreground-block01 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .background-block01 {
+    margin: 0px 0px 0px 0px;
+  }
+  
+  .dimmed-car,
+  .scroll-down-states-full {
+    display: none;
+  }
+  
+  
+}
+
 /* Custom, iPhone Retina */
 /* @media only screen and (max-width: 320px) {} */
