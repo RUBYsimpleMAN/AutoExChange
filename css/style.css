@@ -47,3 +47,6 @@ main {
 .font-700 {
   font-weight: 700;
 }
+.rovv-revers {
+  flex-direction: row-reverse;
+}
