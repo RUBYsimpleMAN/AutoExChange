@@ -29,14 +29,53 @@
     display: flex;
     flex-direction: column-reverse;
   }
-  
   .order-form__scope {
+    height: 240px;
     margin: 140px 0px 0px 0px;
   }
   .order-form__title {
     font-size: 18px;
   }
-      
+  .order-form__shell {
+    width: 265px;
+    height: 164px;
+    margin: 0 auto;
+  }
+  .order-form-input-name,
+  .order-form-input-phone {
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 14px 0px 14px 21px;
+    border: 2px solid #F07F0E;
+    border-radius: 40px;
+    font-size: 14px;
+    background: transparent;
+  }
+  .order-form__button-container {
+    margin: 0 auto;
+    padding-top: 14px;
+  }
+  .order-form-input-submit-btn {
+    width: 209px;
+    height: 46px;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .orange-angle {
+    margin: -64px 0px 0px -40px;
+  }
+  .orange-angle-img {
+    width: 445px;
+  }
+  .wite-mersedes {
+    margin: -512px 0px 0px -16px;
+  }
+  .wite-mersedes img {
+    width: 374px;
+  }
+
   .dimmed-car,
   .scroll-down-states-full {
     display: none;
