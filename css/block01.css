@@ -1,27 +1,28 @@
-.background-block01 {
+.block01 {
+  margin: -150px 0px 0px 0px;
+}
+.block01-scoup {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: -270px 0 0 -200px;
 }
-.orange-angle img {
-  min-width: 50%;
+.orange-angle {
+  margin: 0px 0px 0px -177px;
 }
-.dimmed-car {
-  margin: -0 -200px 0 0;
-}
-.foreground-block01 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: -700px;
+.orange-angle-img {
+  width: 735px;
 }
 .wite-mersedes {
-  text-align: center;
+  margin: -833px 0px 0px 0px;
+}
+.block01-right-side {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.dimmed-car {
+  margin: -195px 0px 0px 90px;
 }
 .scroll-down-states-full {
   /* display: flex;          не работало в браузере Vivaldi
   justify-content: end;      и через текстовые настроки не работало */   
-  padding-top: 90px;
   direction: rtl;            /* а так работает во всех */
+  margin: -32px 0px 0px 0px;
 }

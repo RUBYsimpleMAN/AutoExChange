@@ -16,7 +16,7 @@
   html, body {
     overflow-x: auto;
   }
-  .wrapper {
+  .site-content {
     width: 343px;
   }
   .main-title {
@@ -25,20 +25,22 @@
     font-weight: 700;
     font-size: 32px;
   }
-  .foreground-block01 {
+  .block01-scoup {
     display: flex;
     flex-direction: column-reverse;
   }
-  .background-block01 {
-    margin: 0px 0px 0px 0px;
-  }
   
+  .order-form__scope {
+    margin: 140px 0px 0px 0px;
+  }
+  .order-form__title {
+    font-size: 18px;
+  }
+      
   .dimmed-car,
   .scroll-down-states-full {
     display: none;
   }
-  
-  
 }
 
 /* Custom, iPhone Retina */
