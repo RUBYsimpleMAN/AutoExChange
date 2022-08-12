@@ -5,13 +5,41 @@ header {
   font-weight: 600;
   color: black;
 }
+.header-logo-mobile {
+  display: none;
+}
+.navig-m {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 0;
+}
+menu {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  max-width: 662px;
+  padding: 0;
+}
+menu a,
+.phone-Nr a {
+  text-decoration: none;
+  color: black;
+}
 
 .phone {
   display: flex;
   align-items: center;
 }
-
 .phone .phone-icon a i img {
   margin: -5px 2px;
 }
 
+/* m=o=b=i=l=e */
+
+.burger {
+  display: none;
+}
+.finger-sensitive {}
+.sticks-set {}
+.burger-horizontal-stick {}

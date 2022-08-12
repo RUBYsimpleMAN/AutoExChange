@@ -12,20 +12,6 @@
   padding: 0;
   margin: 0 auto;
 }
-
-menu {
-  display: flex;
-  justify-content: space-around;
-  flex: 1;
-  max-width: 662px;
-  padding: 0;
-}
-menu a,
-.phone-Nr a {
-  text-decoration: none;
-  color: black;
-}
-
 main {
   display: flex;
   flex-direction: column;
