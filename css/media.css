@@ -137,6 +137,52 @@
   .scroll-down-states-full {
     display: none;
   }
+
+
+  .block02 {
+    padding: 100px 0;
+  }
+  .block02-title {
+    margin: 120px auto 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .block02-text,
+  .block02-imaged-link-title,
+  .block02-imaged-link-text {
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .block02-imaged-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 60px 0;
+  }
+  /* .block02-imaged-links {} */
+  .block02-imaged-doubled-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 45vw;
+  }
+  .block02-imaged-link {
+    box-sizing: border-box;
+    flex-basis: 50vw;
+    padding: 2%;
+  }
+  
+  .block02-imaged-link-img,
+  .block02-imaged-link-text {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .block02-imaged-link-img img {
+    width: 74px;
+    height: 74px;
+  }
+  
 }
 
 /* Custom, iPhone Retina */
