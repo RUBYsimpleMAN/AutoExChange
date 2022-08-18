@@ -68,6 +68,12 @@ select::-ms-expand {display: none;} /* ie only */
   display: none;
 }
 
+.control-outofstring__search,
+.db-autoitems-value,
+.db-autoitems-value_subscription {
+  display: none;
+}
+
 .trade-card__scoupe {
   display: flex;
   flex-wrap: wrap;

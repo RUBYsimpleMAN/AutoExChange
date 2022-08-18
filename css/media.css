@@ -139,7 +139,8 @@
     display: none;
   }
 
-
+  /* block02 */
+  
   .block02 {
     padding: 100px 0;
   }
@@ -183,7 +184,110 @@
     width: 74px;
     height: 74px;
   }
+
+  /* block03 */
+
+  .block03 {
+    padding: 0;
+  }
+  .block03-title {
+    margin: 0 auto 80px;
+    text-align: center;
+    font-size: 18px;
+  }
+  .view-more-cars {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 26px;
+  }
+  /* .control-string {
+    display: flex;
+    justify-content: space-between;
+  } */
+  .control-string__auto-category_select {
+    position: relative;
+    width: 148px;
+    height: 24px;
+    padding: 0 0 0 12px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  select::-ms-expand {display: none;} /* ie only */
+  .auto-category-icon {
+    position: absolute;
+    display: block;
+    min-width: 30px;
+    margin: -42px 65px;
+    content: "";
+    pointer-events: none;
+    border: 10px solid red;
+    background: blue;
+  }
   
+  .control-string__prefered i img,
+  .control-string__view-mode-toggle i img,
+  .control-string__settings i img {
+    min-width: unset;
+    width: 24px;
+    padding-top: 10px;
+  }
+
+  .control-string__search {
+    display: none;
+  }
+  .control-outofstring__search {
+    display: block;
+    width: 265px;
+    margin: 24px auto;
+  }
+  
+  .control-outofstring__search input {
+    box-sizing: border-box;
+    width: 265px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 9px 20px;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    border: 2px solid #F07F0E;
+    border-radius: 40px;
+  }
+  
+  .control-string__view-mode-toggle {
+    margin: 0px -72px;
+  }
+  .control-string__view-mode-toggle_list {
+    display: inherit;
+  }
+  .control-string__view-mode-toggle_table {
+    display: none;
+  }
+
+  .db-autoitems-count__mobile-view {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #F07F0E;
+  }
+  .db-autoitems-value,
+  .db-autoitems-value_subscription {
+    display: inline-block;
+  }
+  
+  .trade-card__scoupe {
+    display: none;
+  }
+  
+  .trade-card__scoupe__mobile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 160px 0;
+    margin: 0 -4%;
+    border-radius: 8px;
+  }
 }
 
 /* Custom, iPhone Retina */
