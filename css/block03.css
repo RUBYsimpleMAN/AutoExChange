@@ -82,3 +82,8 @@ select::-ms-expand {display: none;} /* ie only */
   margin: 0 -4%;
   border-radius: 8px;
 }
+
+
+.trade-card__scoupe__mobile {
+  display: none;
+}

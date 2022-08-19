@@ -1,11 +1,9 @@
 .trade-card {
-  box-sizing: border-box;
   flex-basis: 24vw;
   margin: 1%;
   border-radius: 8px;
 }
 .trade-card__sale-data-attribute {
-  box-sizing: border-box;
   flex-basis: 24vw;
   margin: 1%;
   border-radius: 8px;
@@ -16,6 +14,8 @@
   padding: 1%;
   text-align: center;
   font-size: 26px;
+  font-weight: 700;
+  color: rgba(240, 127, 14, 1);
 }
 .trade-card__heart {
   text-align: end;
@@ -37,16 +37,13 @@
   text-align: center;
 }
 .trade-card__image {
-  /* box-sizing: border-box; */
   margin: -2%;
   padding: 1%;
   text-align: center;
   background-color: white;
 }
-/* .trade-card__image-car {  width: 96%; } */
 
 .sale-overley__and-icon {
-  /* box-sizing: border-box; */
   height: 480px;
   margin: -450px 0 -32px 0;
   background-color: #FFE1E1;
