@@ -330,27 +330,17 @@
     font-size: 18px;
     line-height: 20px;
   }
-
-/* .block04-content {
-    display: flex;
-  }
-  .text-block_04 {
-    display: flex;
-  } */
-
   .text-descr-scoupe_04 {
     font-size: 12px;
     margin: -3px 0 12px 16px;
     line-height: 20px;
   }
-
   .text-descr_04 {
     padding: 8px 0 0 0;
   }
   .image-side_04 {
     display: none;
   }
-
   .text-block-icon_04 {
     display: none;
   }
@@ -360,6 +350,37 @@
   .text-title_04 {
     font-size: 14px;
   }
+
+  /* block05 */
+
+  .block05 {
+    padding: 50px 0;
+  }
+  .block05-title {
+    font-size: 18px;
+    margin: 12px auto;
+  }
+  .block05-scoupe {
+    width: 342px;
+  }
+  .document-card {
+    flex-basis: 17vw;
+    min-width: 112px;
+    margin: 0;
+    padding: 20px 0;
+  }
+  .document-card__icon {
+    display: none;
+  }
+  .document-card__icon-mobile {
+    display: block;
+  }
+  .document-card__title {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+
 
 
 

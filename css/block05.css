@@ -21,3 +21,6 @@
   padding: 40px 0;
   text-align: center;
 }
+.document-card__icon-mobile {
+  display: none;
+}
