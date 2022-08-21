@@ -14,6 +14,10 @@
   font-size: 26px;
   margin: 12px 0 32px 20px;
 }
+.text-descr_06 :nth-child(3) {
+  display: none;
+}
+
 .image-side_06 {
   margin: -220px -200px 0 -200px;
 }
@@ -21,4 +25,7 @@
 .text-block-icon_06,
 .text-block-icon_06 i {
   background: transparent;
+}
+.text-block-icon_06-mobile {
+  display: none;
 }
