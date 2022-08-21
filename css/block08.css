@@ -10,10 +10,10 @@
   display: flex;
 }
 .block08-content__background-left {
-  margin: 0 0 0 -174px;
+  margin: 0 0 0 -177px;
 }
 .block08-content__background-right {
-  margin: 0 0 0 407px;
+  margin: 0 0 0 414px;
 }
 .block08-content__foreground {
   margin: -620px 0 0 0;
@@ -47,7 +47,10 @@ select::-ms-expand {display: none;} /* ie only */
 }
 .block08__bottom-link {
   text-align: center;
+}
+.block08__bottom-link a {
   font-size: 26px;
+  font-weight: 700;
   color: rgba(240, 127, 14, 1);
 }
 .block08__bottom-link a:visited{
