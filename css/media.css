@@ -489,6 +489,58 @@
 
   /* block09 */
 
+  .block09 {
+    padding: 50px 0;
+    line-height: 36px;
+  }
+  .block09-title {
+    margin: 30px auto;
+    font-size: 18px;
+  }
+  .block09-scoupe__background {
+    display: none;
+  }
+  .block09-scoupe__background-mobile {
+    display: block;
+    text-align: center;
+  }
+  .block09-scoupe__background-mobile img{
+    width: 70%;
+  }
+  .block09-scoupe__foreground {
+    margin: 0;
+  }
+  /* .block09-fg__user-comment {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 0;
+  } */
+  .block09-fg__user-comment__figure-left,
+  .block09-fg__user-comment__figure-right {
+    display: none;
+  }
+  .block09-fg__user-comment__avatar {
+    display: none;
+  }
+  .block09-fg__user-comment__text {
+    /* max-width: 900px;
+    height: auto; */
+    margin: 0px 0px 10px 0px;
+    padding: 16px 12px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 0;
+  }
+  .name-date {
+    padding: 0 0 10px 0;
+    font-size: 14px;
+  }
+  .block09-foreground__more-replies {
+    padding: 50px 0;
+    font-size: 14px;
+  }
+  
+
 
 }
 

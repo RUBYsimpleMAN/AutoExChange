@@ -37,7 +37,6 @@
 .block09-fg__user-comment__text {
   max-width: 900px;
   height: auto;
-  margin: 0px 0px 0px 0px;
   padding: 40px;
   border-radius: 40px;
   background-color: rgba(255, 210, 144, 1);
@@ -51,4 +50,7 @@
 .block09-foreground__more-replies {
   padding: 50px 0;
   text-align: center;
+}
+.block09-scoupe__background-mobile {
+  display: none;
 }
