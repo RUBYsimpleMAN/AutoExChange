@@ -15,13 +15,26 @@
 .block10-scoup {
   display: flex;
 }
-.block10-right{
-  width: 100%;
+.block10-right__mobile {
+  display: none;
 }
 .block10-left {
   margin: -102px 0 0 -179px;
 }
+.block10-left__mobile {
+  display: none;
+}
 .block10-right {
+  width: 100%;
   height: 434px;
   padding: 90px 0 40px 50px;
+}
+.block10-right__order-form {
+  padding-top: 60px;
+}
+.block10-title__mobile__order-form {
+  display: none;
+}
+.block10-right .phone {
+  display: none;
 }

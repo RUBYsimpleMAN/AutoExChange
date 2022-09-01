@@ -522,9 +522,10 @@
   .block09-fg__user-comment__avatar {
     display: none;
   }
+  .block09-fg__user-comment__avatar-mobile {
+    display: block;
+  }
   .block09-fg__user-comment__text {
-    /* max-width: 900px;
-    height: auto; */
     margin: 0px 0px 10px 0px;
     padding: 16px 12px;
     font-size: 12px;
@@ -540,8 +541,63 @@
     font-size: 14px;
   }
   
-
-
+  .block10 {
+    padding: 0px 0 50px;
+  }
+  .block10-title {
+    margin: 10px auto;
+    font-size: 18px;
+  }
+  .block10-subtitle {
+    display: none;
+  }
+  .block10-scoup {
+    display: flex;
+    flex-direction: column;
+  }
+  .block10-left {
+    display: none;
+  }
+  .block10-right {
+    margin: -365px 0 0 0;
+    /* height: 434px; */
+    padding: 0;
+  }
+  .block10-right__mobile {
+    display: block;
+  }
+  .block10-left__mobile {
+    display: block;
+  }
+  .block10-right .phone {
+    display: flex;
+    justify-content: center;
+  }
+  .block10-right .phone .phone-Nr a {
+    font-weight: 600;
+    color: #F07F0E;
+  }
+  .block10-right__mobile-text {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 30px;
+  }
+  .block10-title__mobile__order-form {
+    display: block;
+    margin: 50px auto 20px;
+    font-size: 18px;
+    color: #F07F0E;
+    text-align: center;
+  }
+  
+  .block10-right__order-form {
+    padding-top: 10px;
+    margin: 0 auto;
+  }
+  .block10-right .order-form .order-form__shell {
+    height: 158px;
+  }
 }
 
 /* Custom, iPhone Retina */

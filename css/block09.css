@@ -34,6 +34,9 @@
 .block09-fg__user-comment__avatar {
   margin: 0px 0px -12px 0px;
 }
+.block09-fg__user-comment__avatar-mobile {
+  display: none;
+}
 .block09-fg__user-comment__text {
   max-width: 900px;
   height: auto;
