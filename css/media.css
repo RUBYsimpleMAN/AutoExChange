@@ -216,7 +216,7 @@
   select::-ms-expand {display: none;} /* ie only */
   .auto-category-icon {
     position: absolute;
-    display: block;
+    display: none;
     min-width: 30px;
     margin: -42px 65px;
     content: "";
@@ -476,7 +476,7 @@
   }
   .block08-content__foreground-select-icon {
     position: absolute;
-    display: block;
+    display: none;
     min-width: 30px;
     margin: -3px 1px;
     content: "";
@@ -598,6 +598,33 @@
   .block10-right .order-form .order-form__shell {
     height: 158px;
   }
+
+  .footer-combine {
+    margin: 80px auto;
+    padding: 3% 0;
+  }
+  .footer-combine__menu {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  .footer-logo-mobile {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto 0;
+  }
+  .footer-logo-mobile a i img {
+    text-align: center;
+  }
+  .footer__contact-icons {
+    max-width: 256px;
+  }
+  .footer__contact-icons a i img {
+    max-width: 30px;
+  }
+
+  
 }
 
 /* Custom, iPhone Retina */
