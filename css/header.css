@@ -14,24 +14,26 @@ header {
   flex: 1;
   padding: 0;
 }
-menu {
+.navig-m menu {
   display: flex;
   justify-content: space-around;
   flex: 1;
   max-width: 662px;
   padding: 0;
 }
-menu a,
+.navig-m menu a,
 .phone-Nr a {
-  text-decoration: none;
   color: black;
 }
 
-.phone {
-  display: flex;
-  align-items: center;
+.burger-menu {
+  display: none;
 }
-.phone .phone-icon a i img {
+
+.phoneNr__header-mobile {
+  display: flex;
+}
+.phoneNr__header-mobile .phone-icon a i img {
   margin: -5px 2px;
 }
 

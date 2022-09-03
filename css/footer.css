@@ -1,9 +1,14 @@
-.footer-combine__menu {
+.footer-combine .footer-combine__menu {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
   margin: 0 auto;
   font-weight: 600;
   padding: 3% 0;
 }
-
+.footer-combine .footer-combine__menu a {
+  color: black;
+}
 footer {
   display: flex;
   justify-content: space-between;
