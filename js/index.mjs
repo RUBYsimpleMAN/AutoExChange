@@ -15,17 +15,24 @@ fingerSensitiveZone.addEventListener('click', fingerSensitiveZoneHandler)
 function fingerSensitiveZoneHandler(e) {
   e.preventDefault();
   if(burgerMenu.style.display === "none") {
-      fingerSensitiveZone.classList.toggle("active")
-      phoneNrHeaderMobile.style.display = "none"
-      headerLogoMobile.style.display = "none"
-      burgerMenu.style.display = "block"
-      burger.style.marginLeft = "auto"
-    } else {
-      burgerMenu.style.display = "none"
-      phoneNrHeaderMobile.style.display = "flex"
-      headerLogoMobile.style.display = "block"
-      burger.style.marginLeft = "unset"
-    }
+  } else {
+    fingerSensitiveZone.classList.toggle("active")
+    phoneNrHeaderMobile.classList.toggle("active")
+    headerLogoMobile.classList.toggle("active")
+    burgerMenu.classList.toggle("active")
+  }
+}
+
+// if(burgerMenu.style.display === "none") {
+  // phoneNrHeaderMobile.style.display = "flex"
+  // headerLogoMobile.style.display = "block"
+// } else {
+//   fingerSensitiveZone.classList.toggle("active")
+//   phoneNrHeaderMobile.classList.toggle("active")
+//   headerLogoMobile.classList.toggle("active")
+//   burgerMenu.classList.toggle("active")
+// }
+
   // burgerMenu.style.display = "none" ? burgerMenu.style.display = "block" : burgerMenu.style.display = "none"
   
   // switch (burgerMenu.style.display = "none") {
@@ -40,6 +47,3 @@ function fingerSensitiveZoneHandler(e) {
   //   default:
   //     console.log(`Sorry, we are out of ${expr}.`);
   // }
-
-
-}
