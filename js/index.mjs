@@ -14,8 +14,7 @@ fingerSensitiveZone.addEventListener('click', fingerSensitiveZoneHandler)
 
 function fingerSensitiveZoneHandler(e) {
   e.preventDefault();
-  if(burgerMenu.style.display === "none") {
-  } else {
+  {
     fingerSensitiveZone.classList.toggle("active")
     phoneNrHeaderMobile.classList.toggle("active")
     headerLogoMobile.classList.toggle("active")
